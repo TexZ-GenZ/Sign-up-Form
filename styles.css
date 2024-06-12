@@ -166,17 +166,21 @@ form > div{
     box-shadow: 0 0 8px rgb(251, 104, 104);
   }
   input:hover{
-    box-shadow: 0 0 8px rgb(147, 250, 249);
-    border: 1px solid rgb(57, 233, 236);
+    box-shadow: 0 0 25px #feddc4;
+    border: 1px solid #f5c097;
   }
   input:focus{
     outline: none;
   }
  
-  input[type = 'password']:invalid {
-    border: 3px solid #ff0000; /* Red border for invalid input */
-    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Optional: add a red box shadow */
+  input[type = 'password']:invalid{
+    border: 2px solid #ff0000; /* Red border for invalid input */
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.5); /* Optional: add a red box shadow */
   }
+  .password:hover input[type='password']:invalid {
+  /* Styles applied to password input when parent .formgroup is hovered and input is invalid */
+  box-shadow: 0 0 25px rgb(255, 0, 0);
+}
   
 form > .Signin > input[type = "submit"]{
   width: 25%;
