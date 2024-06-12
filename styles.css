@@ -123,8 +123,8 @@ form > div{
   font-weight: 300;
   color: rgb(255, 255, 255);
   position: relative;
-  bottom : 1.5vh;
-  font-size: 2rem;
+  bottom : 3vh;
+  font-size: 2.5rem;
 }
 .wrapper{
   display: flex;
@@ -165,6 +165,13 @@ form > div{
     border: 1px solid crimson;
     box-shadow: 0 0 8px rgb(251, 104, 104);
   }
+  input:hover{
+    box-shadow: 0 0 8px rgb(147, 250, 249);
+    border: 1px solid rgb(57, 233, 236);
+  }
+  input:focus{
+    outline: none;
+  }
   
 form > .Signin > input[type = "submit"]{
   width: 25%;
@@ -178,4 +185,5 @@ form > .Signin > input[type = "submit"]:hover{
   background-color: #ed969c;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example box shadow */
   color: #2d1113;
+  border: 1px solid crimson;
 }
