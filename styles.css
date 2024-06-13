@@ -103,10 +103,10 @@ form > div{
 }
 @keyframes borderColorChange {
   0%, 100% {
-    border-color: #e64e4e; /* Starting color */
+    border-color: #fac834; /* Starting color */
   }
   50% {
-    border-color: #ee46a8; /* Middle color */
+    border-color: #ed5dfc; /* Middle color */
   }
 }
 
